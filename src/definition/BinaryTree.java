@@ -19,5 +19,9 @@ public class BinaryTree<E> implements BinaryTreeADT<E> {
         private E data;
         private Node<E> leftChild;
         private Node<E> rightChild;
+
+        public Node(E data) {
+            this.data = data;
+        }
     }
 }
