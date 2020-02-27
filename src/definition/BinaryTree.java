@@ -14,4 +14,8 @@ public class BinaryTree<E> implements BinaryTreeADT<E> {
     public boolean add(E data) {
         return false;
     }
+
+    private static class Node<E> {
+
+    }
 }
