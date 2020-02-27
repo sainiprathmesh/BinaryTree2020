@@ -23,10 +23,9 @@ public class BinaryTree<E> implements BinaryTreeADT<E> {
         if (currentNode == null) {
             return new Node<>(data);
         }
-
-        if ((Integer)data < (Integer)currentNode.getData()) {
+        if ((Integer) data < (Integer) currentNode.getData()) {
             currentNode.leftChild = addRecursive(currentNode.getLeftChild(), data);
-        } else if ((Integer)data > (Integer)currentNode.getData()) {
+        } else if ((Integer) data >= (Integer) currentNode.getData()) {
             currentNode.rightChild = addRecursive(currentNode.getRightChild(), data);
         }
         return currentNode;
