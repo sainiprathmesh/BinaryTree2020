@@ -1,4 +1,4 @@
 package adt;
 
-public interface BinaryTreeADT {
+public interface BinaryTreeADT<E> {
 }
