@@ -7,5 +7,11 @@
 
 package definition;
 
-public class BinaryTree<E> {
+import adt.BinaryTreeADT;
+
+public class BinaryTree<E> implements BinaryTreeADT<E> {
+    @Override
+    public boolean add(E data) {
+        return false;
+    }
 }
