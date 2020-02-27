@@ -19,6 +19,9 @@ public class BinaryTree<E> implements BinaryTreeADT<E> {
         return false;
     }
 
+    private Node<E> addRecursive(Node<E> currentNode, E data){
+
+    }
     private static class Node<E> {
         private E data;
         private Node<E> leftChild;
