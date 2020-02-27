@@ -10,6 +10,9 @@ package definition;
 import adt.BinaryTreeADT;
 
 public class BinaryTree<E> implements BinaryTreeADT<E> {
+
+    private Node<E> root;
+
     @Override
     public boolean add(E data) {
         return false;
