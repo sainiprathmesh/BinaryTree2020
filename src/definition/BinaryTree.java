@@ -12,6 +12,7 @@ import adt.BinaryTreeADT;
 public class BinaryTree<E> implements BinaryTreeADT<E> {
 
     private Node<E> root;
+    private int numberOfNodes = 0;
 
     @Override
     public boolean add(E data) {
