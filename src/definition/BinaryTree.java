@@ -7,5 +7,5 @@
 
 package definition;
 
-public class BinaryTree {
+public class BinaryTree<E> {
 }
